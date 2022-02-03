@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #1a2e35;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f8f9;
+}
+
+.login_wrapper {
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+}
+
+.contents {
+  width: 452px;
+  height: 600px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 76px;
+  box-sizing: border-box;
+}
+.photo {
+  width: 348px;
+  height: 600px;
+  background-color: #eee;
+}
+
+/* top */
+.top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fd5353;
+}
+
+.top .social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  gap: 16px;
+}
+
+.top .social a {
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px solid #1a2e35;
+}
+
+/* form */
+.form_area form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_area .agree {
+  font-size: 12px;
+}
