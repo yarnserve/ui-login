@@ -133,3 +133,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+::placeholder {
+  color: #c6d9df;
+}
+
+input:focus {
+  outline: none;
+}

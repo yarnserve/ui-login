@@ -64,6 +64,11 @@ body {
   border: 1px solid #1a2e35;
 }
 
+.top p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
 /* form */
 .form_area form {
   display: flex;
@@ -72,4 +77,30 @@ body {
 
 .form_area .agree {
   font-size: 12px;
+  width: 100%;
+}
+
+.form_area input[type="text"],
+.form_area input[type="password"] {
+  height: 50px;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  border-radius: 6px;
+  border: 1px solid #c6d9df;
+  background-color: #f7f8f9;
+}
+
+.agree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.agree label {
+  display: flex;
+  align-items: center;
+}
+
+.agree a {
 }
