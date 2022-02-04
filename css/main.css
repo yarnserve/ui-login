@@ -20,6 +20,8 @@ body {
   height: 600px;
   background-color: #fff;
   display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.2);
 }
 
 .contents {
@@ -30,11 +32,15 @@ body {
   flex-direction: column;
   padding: 70px 76px;
   box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+
 .photo {
   width: 348px;
   height: 600px;
-  background-color: #eee;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* top */
@@ -62,6 +68,12 @@ body {
   padding: 8px;
   border-radius: 50%;
   border: 1px solid #1a2e35;
+  transition: all 0.3s;
+}
+
+.top .social a:hover {
+  background-color: #1a2e35;
+  color: #fff;
 }
 
 .top p {
@@ -103,4 +115,28 @@ body {
 }
 
 .agree a {
+  color: #fd5353;
+}
+
+.buts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn_fill {
+  background-color: #fd5353;
+  color: #fff;
+}
+
+.btn_line {
+  background-color: #fff;
+  color: #fd5353;
+}
+
+/* photo */
+.photo {
+  background: url("../images/bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
